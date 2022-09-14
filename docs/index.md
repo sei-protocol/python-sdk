@@ -42,9 +42,18 @@ $ poetry build
 
 This will generate `dist/python_sdk-1.0.0.tar.gz` and `dist/python_sdk-1.0.0-py3-none-any.whl`.
 
-Then
+Publish to test pypi
 
 ```bash
+$ poetry config repositories.test-pypi https://test.pypi.org/legacy/
+$ poetry config pypi-token.test-pypi  pypi-YYYYYYYY
+$ poetry publish poetry publish -r test-pypi
+```
+
+Publish to pypi
+
+```bash
+$ poetry config pypi-token pypi-YYYYYYYY
 $ poetry publish
 ```
 
