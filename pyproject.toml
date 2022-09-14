@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-sdk"
+name = "sei-python-sdk"
 version = "1.0.0"
 description = "Python SDK to interact with Sei chain"
 authors = ["Cody Wang <cody@seinetwork.com>"]
@@ -61,14 +61,6 @@ pyproject-flake8 = "*"
 black = "*"
 isort = "*"
 
-# Documentation.
-mkdocs-material = "*"
-mkdocs-htmlproofer-plugin = "*"
-mkdocstrings = { version = "*", extras = ["python"] }
-## Autodoc.
-mkdocs-gen-files = "*"
-mkdocs-literate-nav = "*"
-
 [tool.poetry.scripts]
 
 [build-system]
@@ -104,7 +96,7 @@ profile = "black"
 line_length = 99
 force_sort_within_sections = true
 # Inform isort of paths to import names that should be considered part of the "First Party" group.
-src_paths = ["src/python_sdk"]
+src_paths = ["src/sei_python_sdk"]
 skip_gitignore = true
 # If you need to skip/exclude folders, consider using skip_glob as that will allow the
 # isort defaults for skip to remain without the need to duplicate them.

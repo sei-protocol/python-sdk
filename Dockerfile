@@ -68,7 +68,7 @@ ENV PIP_NO_CACHE_DIR 1
 ENV VIRTUAL_ENV /opt/venv
 
 ENV HOME /home/user
-ENV APP_HOME ${HOME}/python_sdk
+ENV APP_HOME ${HOME}/sei_python_sdk
 
 # Create the home directory for the new user.
 RUN mkdir -p ${HOME}
@@ -97,4 +97,4 @@ ENV PATH "${VIRTUAL_ENV}/bin:${PATH}"
 # there. Some packages such as matplotlib, want to write to the home folder.
 RUN chown -R user:user ${HOME}
 
-ENTRYPOINT ["python_sdk"]
+ENTRYPOINT ["sei_python_sdk"]
