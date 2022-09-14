@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        nox-session: [ "fmt_check", "lint", "type_check", "docs" ]
+        nox-session: [ "fmt_check", "lint", "type_check" ]
     steps:
       - uses: actions/checkout@v3
       - name: Install poetry

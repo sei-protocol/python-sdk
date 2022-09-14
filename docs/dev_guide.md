@@ -88,9 +88,3 @@ Type check
 ```bash
 (python-sdk-py3.10) $ nox -s type_check
 ```
-
-Generate Markdown docs
-
-```bash
-(python-sdk-py3.10) $ nox -s docs
-```
