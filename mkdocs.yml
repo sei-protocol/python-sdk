@@ -63,8 +63,8 @@ plugins:
   # incorrect URLs.
 #  - htmlproofer:
 #      raise_error: True
-site_name: fact
-copyright: Copyright &copy; 2018-2022 John Hagen
+site_name: User Guide
+copyright: Copyright &copy; 2022 Sei Network
 # GitHub Specific Configuration.
 repo_name: python-sdk
 repo_url: https://github.com/sei-protocol/python-sdk

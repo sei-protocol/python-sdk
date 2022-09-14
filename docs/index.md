@@ -16,7 +16,7 @@ First, [install Poetry](https://python-poetry.org/docs/#installation):
     (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
     ```
 
-Then install the `fact` package and its dependencies:
+Then install the dev environment:
 
 ```bash
 poetry install
@@ -40,7 +40,7 @@ poetry add/remove <library_name>
 $ poetry build
 ```
 
-This will generate `dist/fact-1.0.0.tar.gz` and `dist/fact-1.0.0-py3-none-any.whl`.
+This will generate `dist/app-1.0.0.tar.gz` and `dist/app-1.0.0-py3-none-any.whl`.
 
 Then
 
@@ -53,35 +53,35 @@ $ poetry publish
 Run all checks locally
 
 ```bash
-(fact) $ nox
+(python-sdk-py3.10) $ nox
 ```
 
 Run unit tests
 
 ```bash
-(fact) $ nox -s test
+(python-sdk-py3.10) $ nox -s test
 ```
 
 Lint checks
 
 ```bash
-(fact) $ nox -s lint
+(python-sdk-py3.10) $ nox -s lint
 ```
 
 Code formatter
 
 ```bash
-(fact) $ nox -s fmt
+(python-sdk-py3.10) $ nox -s fmt
 ```
 
 Type check
 
 ```bash
-(fact) $ nox -s type_check
+(python-sdk-py3.10) $ nox -s type_check
 ```
 
 Generate Markdown docs
 
 ```bash
-(fact) $ nox -s docs
+(python-sdk-py3.10) $ nox -s docs
 ```

@@ -16,7 +16,7 @@ def test(s: Session) -> None:
         "python",
         "-m",
         "pytest",
-        "--cov=fact",
+        "--cov=app",
         "--cov-report=html",
         "--cov-report=term",
         "tests",
