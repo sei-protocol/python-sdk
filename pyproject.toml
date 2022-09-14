@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "python-sdk"
 version = "1.0.0"
-description = "Example Python project using best practices"
-authors = ["John Hagen <johnthagen@gmail.com>"]
+description = "Python SDK to interact with Sei chain"
+authors = ["Cody Wang <cody@seinetwork.com>"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/sei-protocol/python-sdk"

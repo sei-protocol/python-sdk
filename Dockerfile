@@ -97,4 +97,4 @@ ENV PATH "${VIRTUAL_ENV}/bin:${PATH}"
 # there. Some packages such as matplotlib, want to write to the home folder.
 RUN chown -R user:user ${HOME}
 
-ENTRYPOINT ["fact"]
+ENTRYPOINT ["app"]
