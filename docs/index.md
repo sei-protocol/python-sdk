@@ -40,7 +40,7 @@ poetry add/remove <library_name>
 $ poetry build
 ```
 
-This will generate `dist/app-1.0.0.tar.gz` and `dist/app-1.0.0-py3-none-any.whl`.
+This will generate `dist/python_sdk-1.0.0.tar.gz` and `dist/python_sdk-1.0.0-py3-none-any.whl`.
 
 Then
 
