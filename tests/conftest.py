@@ -4,6 +4,7 @@ from pathlib import Path
 import pytest
 
 
+# Deleted examples for now
 def _load(file):
     return json.load(open(Path(__file__).parent / "json_examples" / file))
 
